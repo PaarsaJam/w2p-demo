@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+canvas {
+  width: 500px;
+  height: 300px
+}
