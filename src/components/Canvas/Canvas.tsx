@@ -8,8 +8,8 @@ const Canvas = (props: any) => {
     if (!cvs) return;
     const ctx = cvs.getContext("2d");
     if (!ctx) return;
-    ctx.fillStyle = "grey";
-    ctx.fillRect(0, 0, 100, 100);
+    ctx.fillStyle = 'rgb(200,200,250)';
+    ctx.fillRect(0, 0, 500, 500);
   }, []);
 
   return <canvas ref={cvsRef} {...props} />;
